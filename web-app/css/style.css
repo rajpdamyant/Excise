@@ -1,0 +1,212 @@
+h1,h2,h3,h4,h5,h6,div,ul,li{ margin: 0 ; padding: 0; border: 0; outline: 0}
+
+
+ul{
+    list-style: none
+}
+
+
+.layout{
+    margin:30px auto;
+    width: 1080px
+}
+
+
+.content_style {
+    width: 100%;
+    float: left;
+}
+.content_style p{
+    display: block;
+    font: bold 13px/16px arial;
+    padding: 10px;
+    text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
+    color: white;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 50px ;
+
+}
+  .content_style p:hover{
+    background: none repeat scroll 0 0 #E3E3E3;
+    white-space: normal;
+    border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-box-shadow: 1px 1px 3px #292929;
+    -o-box-shadow: 1px 1px 3px #292929;
+    -webkit-box-shadow: 1px 1px 3px #292929;
+    box-shadow: 1px 1px 3px #292929;
+}
+.content_style ul{
+    padding: 5px 0 0 15px;
+    float: left;
+}
+.content_style ul li    {
+    font: normal 15px/21px 'Enriqueta', serif;
+}
+.content_style ul li h3{
+    display: block;
+    font: normal 23px/25px 'Squada One', cursive;
+    padding-bottom: 5px
+}
+
+.bottom_section{
+      background: none repeat scroll 0 0 #E3E3E3;
+    border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px #292929;
+
+    margin: 0 auto;
+
+
+    padding: 20px;
+    width: 765px;
+
+     -moz-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-box-shadow: 0 0 6px #292929;
+     -o-box-shadow: 0 0 6px #292929;
+     box-shadow: 0 0 6px #292929;
+     -webkit-box-shadow: 0 0 6px #292929;
+    ;
+}
+
+.bottom_section h4{     display: block;
+    font: 23px/25px 'Squada One',cursive;
+    padding-bottom: 10px;}
+
+.bottom_section ul li    {
+    font: normal 15px/21px 'Enriqueta', serif;
+}
+
+.border_none{
+    border: 0 !important;
+}
+
+.border_none div{
+    display: block;
+    padding:0 0 10px 24px;}
+
+.border_none li{
+    font: normal 13px/16px arial;
+}
+
+
+.navigation{
+    float: left;
+    width: 100%
+}
+.navigation ul{
+    display:block ;
+    text-align: center;
+}
+.navigation ul li{
+    position: relative;
+    background:#2081A1;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px ;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-box-shadow: 1px 1px 3px #292929;
+    -o-box-shadow: 1px 1px 3px #292929;
+    -webkit-box-shadow: 1px 1px 3px #292929;
+    box-shadow: 1px 1px 3px #292929;    }
+
+
+.nav_hq ul li{  width: 24%;
+
+  }
+.nav_hq ul li ul{
+
+    padding-bottom: 10px;
+}
+.nav_hq ul li ul li{
+
+    border-radius: 0
+}
+
+
+
+
+.navigation ul li a{
+    color: #fff;
+    font: normal 14px/30px arial;
+    text-shadow: 1px 1px 0 #222;
+   color: white; }
+
+  .navigation ul li a:hover{
+    text-decoration: underline
+}
+.navigation ul li ul{
+    position: absolute;
+    top:30px;
+    left: 0;
+    /*background:#333 ;*/
+    display: none;
+    width: 100% ;
+    text-align: left;
+     -moz-border-radius: 5px 5px 5px 5px ;
+    -moz-box-shadow: 1px 1px 3px #292929;
+    -o-box-shadow: 1px 1px 3px #292929;
+    /*-webkit-box-shadow: 1px 1px 3px #292929;*/
+    /*box-shadow: 1px 1px 3px #292929;*/
+    padding-bottom: 10px;
+    z-index: 1000;
+}
+
+
+.navigation ul li ul li{
+    text-align: left;
+    margin: 0;
+   border-radius: 0; width: 100%;
+}
+.navigation ul li ul li a{  padding: 0 0 0 20px;
+
+    font-size: 13px
+}
+.navigation ul li:hover ul{
+    display: block;
+}
+
+
+.navigation ul li ul li ul li{
+    position: absolute;
+    top:30px;
+    left: 0;
+    background:#333 ;
+    display: none;
+    width: 100% ;
+    text-align: left;
+     -moz-border-radius: 5px 5px 5px 5px ;
+    -moz-box-shadow: 1px 1px 3px #292929;
+    -o-box-shadow: 1px 1px 3px #292929;
+    -webkit-box-shadow: 1px 1px 3px #292929;
+    box-shadow: 1px 1px 3px #292929;
+    padding-bottom: 10px;
+    z-index: 1000;
+}
+
+.navigation ul li ul li :hover ul{
+    display: block;
+}
+
+.navigation ul li ul li ul{
+    text-align: left;
+    margin: 0;
+   border-radius: 0; width: 100%;
+}
+
+.navigation ul li ul li ul li a{  padding: 0 0 0 20px;
+
+    font-size: 13px
+}
+
+

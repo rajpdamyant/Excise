@@ -1,0 +1,400 @@
+@media  all and (max-width:1366px) {
+
+    .middleDiv{
+        width: 1339px;
+        float: left;
+        padding-left: 5px;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .districtDiv{
+        width:96px;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .districtDiv1{
+        width:56px;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .distSelectBox{
+        width:141px;
+        float:left;
+    }
+
+    .distSelectBox1{
+        width:138px;
+        float:left;
+    }
+
+    .treasureLabelDiv{
+        width:11%;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .treasureLabelDiv1{
+        width:125px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .treasureInputDiv{
+        width:7%;
+        float:left;
+    }
+
+    .treasureInputDiv1{
+          width:142px;
+          float:left;
+      }
+
+    .treasureInputDiv2{
+        width:175px;
+        float:left;
+    }
+
+    .estIdLabel{
+        width:8%;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .estIdLabel1{
+        width:147px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .estIdLabel2{
+        width:117px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .estIdSelect{
+        width:10%;
+        float:left;
+    }
+
+    .estIdSelect1{
+        width:11%;
+        float:left;
+    }
+    .estNameLabel{
+        width:129px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .estNameBox{
+        width:13%;
+        float:left;
+    }
+
+    .amountLabel{
+        width:96px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .amountBox{
+        width:141px;
+        float:left;
+    }
+
+    .amountWordsLabel{
+        width:11%;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .amountWordsBox{
+        width:42%;
+        float:left;
+    }
+
+    .amountWordsBox1{
+        width:33%;
+        float:left;
+    }
+
+    .durationDiv{
+       width: 17%;
+        float: left;
+    }
+
+    .addButton{
+        padding-left: 11px;
+        float:left;
+    }
+
+    input.buttonCss:hover {
+        color: #999999;
+        border: 1px solid #999999;
+        font-weight: bold;
+    }
+
+    input.buttonCss {
+        cursor: pointer;
+        display: inline;
+        overflow: visible;
+        padding: 4px;
+        position: relative;
+        text-align: center;
+        text-decoration: none !important;
+        border-radius: 4px;
+        color: #555555;
+        font-weight: normal;
+        background-color: #e8e6e6;
+        font-size: 14px;
+        width: 120px;
+    }
+
+
+    label {
+        display: inline-block;
+        width: 200px;
+    }
+    fieldset div {
+        margin-bottom: 2em;
+    }
+    fieldset .help {
+        display: inline-block;
+    }
+
+    .gridChartDiv{
+        width: 1345px;
+        border: 1px solid gainsboro;
+
+    }
+    .gridDiv{
+        width:660px;
+        height: 480px;
+        display: none;
+        float: left;
+    }
+    .chartDiv{
+        width:684px;
+        height: 480px;
+        display: none;
+        float: left;
+        border-left: 1px solid gainsboro
+    }
+
+
+    .heading{
+        /*text-decoration:underline;*/
+        font-size: 12pt;
+        font-weight: bold;
+        background-color: #e8e6e6;
+        position: relative;
+        text-align: center;
+        border-radius: 4px;
+        color: #555555;
+        height: 25px;
+    }
+
+}
+
+
+
+@media  all and (max-width:1280px) {
+    .middleDiv{
+        width: 1270px;
+        float: left;
+        padding-left: 5px;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .districtDiv{
+        width:96px;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .districtDiv1{
+        width:56px;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .distSelectBox{
+        width:141px;
+        float:left;
+    }
+
+    .distSelectBox1{
+        width:138px;
+        float:left;
+    }
+
+    .treasureLabelDiv{
+        width:11%;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .treasureLabelDiv1{
+        width:125px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .treasureInputDiv{
+        width:7%;
+        float:left;
+    }
+
+    .treasureInputDiv1{
+        width:142px;
+        float:left;
+    }
+
+    .treasureInputDiv2{
+        width:175px;
+        float:left;
+    }
+
+    .estIdLabel{
+        width:8%;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .estIdLabel1{
+        width:147px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .estIdLabel2{
+        width:117px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .estIdSelect{
+        width:10%;
+        float:left;
+    }
+
+    .estIdSelect1{
+        width:11%;
+        float:left;
+    }
+    .estNameLabel{
+        width:129px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .estNameBox{
+        width:13%;
+        float:left;
+    }
+
+    .amountLabel{
+        width:96px;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .amountBox{
+        width:141px;
+        float:left;
+    }
+
+    .amountWordsLabel{
+        width:11%;
+        float:left;
+        padding-top: 5px;
+    }
+
+    .amountWordsBox{
+        width:42%;
+        float:left;
+    }
+
+    .amountWordsBox1{
+        width:33%;
+        float:left;
+    }
+
+    .durationDiv{
+        width: 17%;
+        float: left;
+    }
+
+    .addButton{
+        padding-left: 11px;
+        float:left;
+    }
+
+    input.buttonCss:hover {
+        color: #999999;
+        border: 1px solid #999999;
+        font-weight: bold;
+    }
+
+    input.buttonCss {
+        cursor: pointer;
+        display: inline;
+        overflow: visible;
+        padding: 4px;
+        position: relative;
+        text-align: center;
+        text-decoration: none !important;
+        border-radius: 4px;
+        color: #555555;
+        font-weight: normal;
+        background-color: #e8e6e6;
+        font-size: 14px;
+        width: 120px;
+    }
+
+
+    label {
+        display: inline-block; width: 5em;
+    }
+    fieldset div {
+        margin-bottom: 2em;
+    }
+    fieldset .help {
+        display: inline-block;
+    }
+
+    .gridChartDiv{
+        width: 1259px;
+        border: 1px solid gainsboro;
+
+    }
+    .gridDiv{
+        width:610px;
+        height: 480px;
+        display: none;
+        float: left;
+    }
+    .chartDiv{
+        width:648px;
+        height: 480px;
+        display: none;
+        float: left;
+        border-left: 1px solid gainsboro
+    }
+
+    .heading{
+        /*text-decoration:underline;*/
+        font-size: 12pt;
+        font-weight: bold;
+        background-color: #e8e6e6;
+        position: relative;
+        text-align: center;
+        border-radius: 4px;
+        color: #555555;
+        height: 25px;
+    }
+
+}
